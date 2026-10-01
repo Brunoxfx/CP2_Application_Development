@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  max-width: 560px;
+  padding: 36px;
+  background-color: #fff;
+  border: 1px solid #d8eae3;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px #164e3a0d;
+}
+
+h1 {
+  font-size: 1.75rem;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
+}
+
+@media (max-width: 480px) {
+  #root { padding: 20px 12px; }
+  .container { padding: 24px 16px; border-radius: 16px; }
+  h1 { font-size: 1.5rem; }
+}

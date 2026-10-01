@@ -1,0 +1,21 @@
+button {
+  padding: 13px 24px;
+  min-height: 48px;
+  border: 1px solid #0f766e;
+  border-radius: 10px;
+  background-color: #0f766e;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 150ms ease;
+}
+
+button:hover { background-color: #115e59; }
+
+#clear-btn {
+  border-color: #bdd6cc;
+  background-color: #edf6f1;
+  color: #23594a;
+}
+
+#clear-btn:hover { background-color: #dceee3; }

@@ -1,0 +1,43 @@
+.calc-heading { margin-bottom: 28px; }
+.calc-heading p { margin-top: 8px; color: #536b65; }
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-control label { font-weight: 700; }
+.form-control label span { color: #536b65; font-weight: 400; }
+
+.form-control input {
+  width: 100%;
+  min-width: 0;
+  padding: 13px 14px;
+  border: 1px solid #a9c5ba;
+  border-radius: 10px;
+  background-color: #fbfefc;
+  color: #163c38;
+}
+
+.form-control input::placeholder { color: #61776f; }
+.form-control input[aria-invalid='true'] { border-color: #b42318; }
+.field-error { margin-top: 2px; font-size: 0.875rem; color: #b42318; }
+
+.action-control {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.action-control button { flex: 1; }
+
+@media (max-width: 360px) {
+  .action-control { flex-direction: column; }
+}
